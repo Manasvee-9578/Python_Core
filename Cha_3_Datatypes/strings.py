@@ -37,3 +37,5 @@ str2 = "india"
 print(str2.islower())
 print(str2.isupper())
 print(str2[2].isupper())
+
+print(3*"Hii")
