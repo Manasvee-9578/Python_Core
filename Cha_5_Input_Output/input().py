@@ -51,3 +51,26 @@ str = input('Enter binary number: ')
 n = int(str, 2)  # inform the number is base 2 
 print('Binary to Decimal= ', n); 
 
+
+A , B = [int(X) for X in input("Enter two numbers: ").split()] # multiple inputs in single line
+print("You entered: ", A, B)
+
+var1, var2, var3 = [int(x) for x in input("Enter three numbers: ").split(",")] 
+print('Sum = ', var1+var2+var3) 
+
+lst = [x for x in input("enter strings you want in list:").split(",")]
+print("List is:", lst)
+
+a1 ,b1 = 5, 10
+result = eval("a1+b1-4")
+print(result)
+
+x1 = eval(input("Enter an expression:"))
+print("Result:%d"%x1)
+
+lst1 = eval(input("enter a list:"))
+print("list:",lst1)#input = ["ma","na","sv","ee"]
+
+tpl = eval(input("Enter a tuple: ")) #input=(10, 20, 30, 40)
+print("Tuple= ", tpl) 
+
